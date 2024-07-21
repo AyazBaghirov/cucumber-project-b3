@@ -1,5 +1,6 @@
 package io.loop.utilities;
 
+import io.cucumber.java.Scenario;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -14,6 +15,8 @@ import java.util.Set;
 import static org.junit.Assert.assertTrue;
 
 public class BrowserUtils {
+    public static Scenario myScenario;
+
     /**
      * validate if driver switched to expected url and title
      * @param driver
