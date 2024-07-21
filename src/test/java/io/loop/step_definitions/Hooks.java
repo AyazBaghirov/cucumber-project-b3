@@ -12,8 +12,6 @@ public class Hooks {
 
 
 
-
-
     @Before
     public void setUp(Scenario scenario){
         Driver.getDriver();
