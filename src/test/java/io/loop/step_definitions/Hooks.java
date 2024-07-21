@@ -20,6 +20,7 @@ public class Hooks {
         BrowserUtils.myScenario = scenario;
     }
 
+
     @After
     public void tearDown(Scenario scenario){
         // only takes a screenshot when scenario is failed
